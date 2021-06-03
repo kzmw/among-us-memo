@@ -27,9 +27,9 @@ table td, table th {
     height: 2.4em;
     text-align: center!important;
     border: solid #dbdbdb;
-    border-width: 0 0 1px;
     padding: .5em .75em;
     vertical-align: top;
+    border-width: 1px;
 }
 
 input[type="text"]{
