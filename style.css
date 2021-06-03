@@ -27,10 +27,10 @@ table td, table th {
     height: 2.4em;
 }
 
-input[name="name"]{
+input[style="text"]{
     height: 100%;
 }
 
-input[name="checkbox"]{
+input[style="checkbox"]{
     height: 100%;
 }
