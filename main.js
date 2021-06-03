@@ -46,9 +46,13 @@ function map(){
   }
   else if (map_name == "blank"){
     document.getElementById("map_field").innerHTML = '';
+    var locate = ["","不明"]
     for (var i=1;i<=12;i++){
     var select_id_name = '#dead' + String(i)
     $( select_id_name + ' > option').remove();
+    for(var j=0;j<=locate.length-1;j++){
+    $(select_id_name).append($('<option>').html(locate[j]));
+    }
     }
   }
 }
