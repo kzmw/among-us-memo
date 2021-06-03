@@ -85,3 +85,8 @@ input[type="checkbox"]:after {
 	border: 2px solid #f2f2f2;
 	background: #ffffff;
 }
+
+.content_div{
+  display: flex;
+  flex-direction: row;
+}
