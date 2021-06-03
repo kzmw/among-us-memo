@@ -28,6 +28,16 @@ table td, table th {
 }
 
 input[type="text"]{
+    padding: 0;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: .7em;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: clip;
+    background: none;
+    box-shadow: none;
     height: 100%;
 }
 
