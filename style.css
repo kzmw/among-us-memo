@@ -23,6 +23,7 @@ header  p {
 }
 
 table td, table th {
+    position: relative;
     width: 4em!important;
     height: 2.4em;
     text-align: center!important;
