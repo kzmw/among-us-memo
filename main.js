@@ -24,11 +24,31 @@ function map(){
   }
   else if (map_name == "MIRA HQ"){
     document.getElementById("map_field").innerHTML = '<img border="0" src="./img/mira_hq.png" style="zoom: 60%;" alt="MIRA HQのマップ">';
+    var locate = ["","カフェテリア","バルコニー","ストレージ","コミュニケーション","メッドベイ","ロッカー","除染室","ラボラトリー","リアクター","ランチパッド","アドミン","オフィス","グリーンハウス","不明"]
+    for (var i=1;i<=12;i++){
+    var select_id_name = '#dead' + String(i)
+    $( select_id_name + ' > option').remove();
+    for(var j=0;j<=locate.length-1;j++){
+    $(select_id_name).append($('<option>').html(locate[j]));
+    }
+    }
   }
   else if (map_name == "POLUS"){
     document.getElementById("map_field").innerHTML = '<img border="0" src="./img/polus.png" style="zoom: 60%;" alt="POLUSのマップ">';
+    var locate = ["","ドロップシップ","ストレージ","リアクター左","リアクター右","セキュリティ","エレクトリカル","O2","ボイラー","ウェポン","コミュニケーション","オフィス左","オフィス右","オフィス通路・入口","アドミン","除染室左","標本室","除染室右","メッドベイ","ラボラトリー","トイレ","ドリル","不明"]
+    for (var i=1;i<=12;i++){
+    var select_id_name = '#dead' + String(i)
+    $( select_id_name + ' > option').remove();
+    for(var j=0;j<=locate.length-1;j++){
+    $(select_id_name).append($('<option>').html(locate[j]));
+    }
+    }
   }
   else if (map_name == "blank"){
     document.getElementById("map_field").innerHTML = '';
+    for (var i=1;i<=12;i++){
+    var select_id_name = '#dead' + String(i)
+    $( select_id_name + ' > option').remove();
+    }
   }
 }
