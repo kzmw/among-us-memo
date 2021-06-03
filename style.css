@@ -23,11 +23,7 @@ header  p {
 }
 
 table td, table th {
-    width: auto;
     height: 2.4em;
-}
-
-table thead th {
     width: 2em!important;
     line-height: 2em;
     font-size: 1em;
