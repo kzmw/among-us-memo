@@ -26,6 +26,10 @@ table td, table th {
     width: 2em!important;
     height: 2.4em;
     text-align: center!important;
+    border: solid #dbdbdb;
+    border-width: 0 0 1px;
+    padding: .5em .75em;
+    vertical-align: top;
 }
 
 input[type="text"]{
