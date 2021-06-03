@@ -28,8 +28,9 @@ table td, table th {
     text-align: center!important;
     border: solid #dbdbdb;
     padding: .5em .75em;
-    vertical-align: top;
+    vertical-align: middle;
     border-width: 1px;
+    border-collapse: collapse;
 }
 
 input[type="text"]{
