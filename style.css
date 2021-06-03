@@ -30,3 +30,7 @@ table td, table th {
 input[name="name"]{
     height: 100%;
 }
+
+input[name="checkbox"]{
+    height: 100%;
+}
