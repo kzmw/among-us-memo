@@ -82,6 +82,12 @@ input[type="checkbox"]:checked:before {
 	        transform: rotate(-45deg) scale(1, 1);
 }
 input[type="checkbox"]:after {
+	display: block; /* 無くてもよい模様 */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         margin: auto;
 	width: 1rem;
 	height: 1rem;
