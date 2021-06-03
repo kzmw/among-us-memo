@@ -89,4 +89,5 @@ input[type="checkbox"]:after {
 .content_div{
   display: flex;
   flex-direction: row;
+  padding: .75rem;
 }
