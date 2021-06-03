@@ -27,10 +27,47 @@ table td, table th {
     height: 2.4em;
 }
 
-input[style="text"]{
+input[type="text"]{
     height: 100%;
 }
 
-input[style="checkbox"]{
+input[type="checkbox"]{
     height: 100%;
+}
+
+input[type="checkbox"] {
+	position: relative;
+	margin: 0 1rem 0 0;
+	cursor: pointer;
+}
+input[type="checkbox"]:before {
+	position: absolute;
+	z-index: 1;
+	top: 0.125rem;
+	left: 0.1875rem;
+	width: 0.75rem;
+	height: 0.375rem;
+	content: '';
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	        transition:         transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	-webkit-transform: rotate(-45deg) scale(0, 0);
+	        transform: rotate(-45deg) scale(0, 0);
+	border: 2px solid #da3c41;
+	border-top-style: none;
+	border-right-style: none;
+}
+input[type="checkbox"]:checked:before {
+	-webkit-transform: rotate(-45deg) scale(1, 1);
+	        transform: rotate(-45deg) scale(1, 1);
+}
+input[type="checkbox"]:after {
+	position: absolute;
+	top: -0.125rem;
+	left: 0;
+	width: 1rem;
+	height: 1rem;
+	content: '';
+	cursor: pointer;
+	border: 2px solid #f2f2f2;
+	background: #ffffff;
 }
