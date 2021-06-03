@@ -19,4 +19,14 @@ header  p {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%)
+}
+
+table td, table th {
+    width: auto;
+    height: 2.4em;
+}
+
+input[name="name"]{
+    height: 100%;
+}
