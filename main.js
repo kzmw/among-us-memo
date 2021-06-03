@@ -12,4 +12,7 @@ function map(){
   else if (map_name == "POLUS"){
     document.getElementById("map_field").innerHTML = '<img border="0" src="./img/polus.png" alt="POLUSのマップ">';
   }
+  else if (map_name == "blank"){
+    document.getElementById("map_field").innerHTML = '';
+  }
 }
