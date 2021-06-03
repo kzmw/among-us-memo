@@ -23,7 +23,7 @@ header  p {
 }
 
 table td, table th {
-    width: 2em!important;
+    width: 4em!important;
     height: 2.4em;
     text-align: center!important;
     border: solid #dbdbdb;
