@@ -23,10 +23,8 @@ header  p {
 }
 
 table td, table th {
-    height: 2.4em;
     width: 2em!important;
-    line-height: 2em;
-    font-size: 1em;
+    height: 2.4em;
     text-align: center!important;
 }
 
