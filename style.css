@@ -91,10 +91,10 @@ input[type="checkbox"]:after {
   flex-direction: row;
 }
 
-.settings{
+#settings{
 padding: .75rem;
 }
 
-.table{
+#table{
 padding: .75rem;
 }
