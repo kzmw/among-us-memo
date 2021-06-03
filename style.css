@@ -24,7 +24,7 @@ header  p {
 
 table td, table th {
     position: relative;
-    width: 4em!important;
+    width: 6em;
     height: 2.4em;
     text-align: center!important;
     border: solid #dbdbdb;
