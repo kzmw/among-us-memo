@@ -89,6 +89,7 @@ input[type="checkbox"]:after {
 .content_div{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #settings{
