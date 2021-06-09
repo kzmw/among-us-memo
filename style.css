@@ -28,12 +28,12 @@ header  p {
     border-spacing: none;
 }
 
-table {
+#table table {
     border-width: 1px;
     border-collapse: collapse;
 }
 
-table td, table th {
+#table table td, table th {
     position: relative;
     width: 6em;
     height: 2.4em;
