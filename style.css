@@ -32,6 +32,7 @@ table td, table th {
     height: 2.4em;
     text-align: center!important;
     border: solid #dbdbdb;
+    border-spacing: none;
     vertical-align: middle;
     border-width: 1px;
     border-collapse: collapse;
